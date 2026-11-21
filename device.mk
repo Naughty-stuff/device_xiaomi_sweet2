@@ -26,9 +26,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hwcomposer.qcom
 
-# Dolby
-TARGET_USES_DOLBY := true
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
