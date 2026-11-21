@@ -7,6 +7,13 @@
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
+# LunarisDolby
+PRODUCT_SOONG_NAMESPACES += \
+    packages/apps/LunarisDolby
+
+PRODUCT_PACKAGES += \
+    LunarisDolby
+    
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
